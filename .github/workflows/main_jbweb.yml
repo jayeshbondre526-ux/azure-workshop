@@ -64,6 +64,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'quizlab-api-am'
+          app-name: 'jbweb'
           slot-name: 'Production'
           package: .
